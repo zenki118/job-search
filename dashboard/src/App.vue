@@ -1,7 +1,12 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
+import Hero from './components/Hero.vue'
+import HomeCard from './components/HomeCard.vue'
+import JobListing from './components/JobListing.vue'
 </script>
 <template>
   <NavBar />
-  <h1 class="text-4xl">Hello world!</h1>
+  <Hero title="test title" subTitle="test subTitle" />
+  <HomeCard />
+  <JobListing :limit="3" />
 </template>
