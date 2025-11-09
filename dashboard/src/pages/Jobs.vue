@@ -4,6 +4,6 @@ import JobListing from '@/components/JobListing.vue'
 
 <template>
   <div>
-    <JobListing />
+    <JobListing :showViewAll="false" />
   </div>
 </template>
